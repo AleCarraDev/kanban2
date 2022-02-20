@@ -3,13 +3,13 @@ import Card1 from "./components/Card/Card";
 import man from "./man.png";
 import woman from "./woman.png";
 import Home from "./components/Home/Home";
-import Card2 from "./components/Card2/Card2";
+import PostIt from "./components/PostIt/PostIt";
 
 function App() {
   return (
     <Home>
       <div className="outside-cards">
-        <Card2
+        <PostIt
           cardColor="blue"
           titleText="To Do"
           titleColor="white"
@@ -21,8 +21,8 @@ function App() {
           <Card1 person={man} genre="Label" status="To-Do">
             Redo Portfolio
           </Card1>
-        </Card2>
-        <Card2
+        </PostIt>
+        <PostIt
           cardColor="brown"
           titleText="In Progress"
           titleColor="white"
@@ -34,8 +34,8 @@ function App() {
           <Card1 person={woman} genre="Webflow" status="In-Progress">
             Updating Portfolio
           </Card1>
-        </Card2>
-        <Card2
+        </PostIt>
+        <PostIt
           cardColor="purple"
           titleText="Review"
           titleColor="white"
@@ -51,8 +51,8 @@ function App() {
             Background images from{" "}
             <a href="https://www.google.com.br">humaaans.com</a>
           </Card1>
-        </Card2>
-        <Card2
+        </PostIt>
+        <PostIt
           cardColor="green"
           titleText="Done"
           titleColor="black"
@@ -67,7 +67,7 @@ function App() {
           <Card1 person={woman} genre="UI" status="Done">
             Sticker Components
           </Card1>
-        </Card2>
+        </PostIt>
       </div>
     </Home>
   );

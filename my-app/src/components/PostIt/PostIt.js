@@ -1,11 +1,11 @@
-import "./Card2.css";
+import "./PostIt.css";
 import Done from "./done.png";
 import InProgress from "./inProgress.png";
 import Review from "./review.png";
 import ToDo from "./toDo.png";
 const images = { ToDo, InProgress, Done, Review };
 
-const Card2 = (props) => {
+const PostIt = (props) => {
   const {
     children,
     titleText = "To Do",
@@ -25,4 +25,4 @@ const Card2 = (props) => {
   );
 };
 
-export default Card2;
+export default PostIt;
