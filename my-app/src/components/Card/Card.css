@@ -9,13 +9,14 @@
 }
 
 .task {
-  line-height: 21px;
+  line-height: 80px;
   font-size: 14px;
   letter-spacing: -0.02em;
   color: #171717;
-  margin: 0 0 10px 0;
+  margin: 0 0 -18px 0;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 
 .underTask {
